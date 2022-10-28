@@ -6,7 +6,7 @@
 #   docker build -t cypress/browsers:node18.12.0-chrome105-ff104 .
 #
 #
-FROM cypress/base:18.12.0
+FROM cypress/base:18.12.0-alpine
 
 USER root
 
